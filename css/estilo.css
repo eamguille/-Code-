@@ -1,0 +1,263 @@
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #141c3a;
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-list li {
+    margin: 0 24px 0 44px;
+}
+
+.navbar-list li a {
+    display: inline-block;
+    position: relative;
+    color: #141c3a;
+    font-weight: bold;
+}
+
+.navbar-list li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #004aad, #cb6cec);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.navbar-list li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* box-shadow: 0 4px 6px #000; */
+
+.fsection-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.fsection-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.fsection-text p:nth-child(1) {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.fsection-img {
+    width: 800px;
+    margin-right: 30px;
+}
+
+.fsection-img img{
+    width: 100%;
+    height: auto;
+}
+
+.ssection-container {
+    margin-bottom: 100px
+}
+
+.ssection-wrapper {
+    margin: 0 32px 0 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.footer-section {
+    margin: 0 12px 5px 12px;
+}
+
+.part-title p:nth-child(1){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.part-title:nth-child(1) p:nth-child(2) a {
+    text-decoration: none;
+    color: #141c3a;
+}
+
+.part-title:nth-child(1) p:nth-child(2) a:hover {
+    font-weight: bolder;
+}
+
+.part-title p:nth-child(2){
+    font-size: 14.5px;
+}
+
+.redes-sociales img{
+    width: 30px;
+    height: auto;
+    margin: 12px 8px 0 8px;
+}
+
+.section-lista ul{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.section-lista ul li a{
+    color: #141c3a;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 14.5px;
+}
+
+.section-lista li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #004aad, #cb6cec);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+
+.section-lista li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.part-title button {
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+}
+
+.sello {
+    font-size: 12px;
+}
+
+.footer-bloque:nth-child(1), .footer-bloque:nth-child(3){
+    border-right: 1px solid #141c3a;
+}
+
+/* Ajuste responsive footer  */
+@media screen and (max-width: 768px) {
+    .fsection-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fsection-text {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: -100px
+    }
+    
+    .fsection-text p:nth-child(1) {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 35px;
+    }
+    
+    .fsection-img {
+        width: 800px;
+        margin: 0;
+    }
+
+
+    .section-title {
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+    }
+
+
+    .footer-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-bloque:nth-child(1), .footer-bloque:nth-child(3){
+        border-right: none;
+    }
+
+    .redes-sociales {
+        margin-bottom: 30px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-wrapper {
+    background: #ccc;
+}
+
+.column-wrapper {
+    padding: 12px;
+}
+
+.column-wrapper:nth-child(1) {
+    background: #ff1;
+}
+
+.column-wrapper:nth-child(2) {
+    background: #fca;
+}
+
+.column-wrapper:nth-child(3) {
+    background-color: #ad3;
+}
+
+.column-wrapper:nth-child(4) {
+    background-color: #004aad;
+}
