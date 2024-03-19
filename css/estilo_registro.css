@@ -12,37 +12,52 @@ body {
 .bg-dark { background-color: var(--dark) !important; }
 .bg-dark-x { background-color: var(--dark-x); }
 
-.Welcome-text {
-    color: #141c3a;
-}
-
-.form-wrapper label {
-    color: #141c3a;
-    font-weight: 700;
-}
-
 .btn {
     min-height: 3.125rem;
     font-weight: 600;
-    background-color: #141c3a;
 }
 
 .form-control {
     min-height: 3.125rem;
     line-height: initial;
 }
-
 .form-control:focus {
     background-color: var(--dark-x);
     outline: none;
 }
 
-.carousel-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.img-text-wrapper {
+    padding: 20px;
+    color: #141c3a;
+    background: rgba(255, 255, 255, .18);
+    backdrop-filter: blur(5px);
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-.img-1-wrapper img{
-    width: 450px;
+.a-text-wrapper {
+    color: #141c3a !important;
+    font-size: 25px;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: start;
+    margin-left: 10%
+}
+
+.img-1 {
+    background-image: url('../src/imgs/signup-image.svg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.img-2 {
+    background-image: url('../src/imgs/signup-image2.svg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 90%;
 }
