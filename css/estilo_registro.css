@@ -1,0 +1,48 @@
+:root {
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark);
+}
+
+.text-dark { color: var(--dark) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.Welcome-text {
+    color: #141c3a;
+}
+
+.form-wrapper label {
+    color: #141c3a;
+    font-weight: 700;
+}
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+    background-color: #141c3a;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1-wrapper img{
+    width: 450px;
+}
