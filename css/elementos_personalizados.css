@@ -95,13 +95,13 @@
     }
     
     .Text-animation:nth-child(1) {
-        margin-left: -5px;
+        margin-left: -10px;
         width: 14em;
         animation: typing 2s;
     }
     
     .Text-animation:nth-child(2) {
-        margin-left: -5px;
+        margin-left: -10px;
         width: 14em;
         opacity: 0;
         animation: typing2 3s steps(44, end);
