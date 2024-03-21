@@ -7,6 +7,13 @@ body {
     overflow-x: hidden;
 }
 
+.secciones {
+    background: linear-gradient(to bottom, #7d19ff, #fafafa)
+}
+
+.lista-container {
+    list-style: url('../src/imgs/list-icon.svg');
+}
 
 /*===================MENU==========================*/
 
