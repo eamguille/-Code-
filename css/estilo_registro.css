@@ -40,7 +40,24 @@ body {
     font-size: 25px;
 }
 
-.img-container img {
-    width: 35vw;
-    height: auto;
+.carousel-inner {
+    display: flex;
+    justify-content: start;
+    margin-left: 10%
+}
+
+.img-1 {
+    background-image: url('../src/imgs/signup-image.svg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.img-2 {
+    background-image: url('../src/imgs/signup-image2.svg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 90%;
 }
