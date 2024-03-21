@@ -88,7 +88,7 @@
 
 @media screen and (width <= 380px) {
     .Text-animation {
-        min-width: 100vw;
+        min-width: 50vw;
         text-align: center;
         font-size: 20px !important;
         white-space: nowrap;
@@ -139,7 +139,7 @@
 
 @media screen and (width <= 330px) {
     .Text-animation {
-        min-width: 100vw;
+        min-width: 50vw;
         text-align: center;
         font-size: 20px !important;
         white-space: nowrap;
