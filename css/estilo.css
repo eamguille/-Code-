@@ -6,11 +6,19 @@
 
 body {
     margin: 0;
+    color: #141c3a;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo {
     width: 150px;
     height: auto;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
 }
 
 .navbar-list li {
@@ -53,9 +61,10 @@ body {
 .fsection-text {
     text-align: center;
     font-size: 20px;
+    width: 60vw;
 }
 
-.fsection-text p:nth-child(1) {
+.fsection-text p:nth-child(1), .fsection-text p:nth-child(2) {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
@@ -68,6 +77,7 @@ body {
 .fsection-img img{
     width: 100%;
     height: auto;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
 }
 
 .ssection-container {
@@ -153,73 +163,6 @@ body {
     transform-origin: bottom left;
 }
 
-.part-title {
-    color: #fff;
-}
-
-.part-title button a{
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    border: 2px solid #141c3a;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.part-title button a::before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: -2px;
-    width: calc(100% + 4px);
-    height: calc(100% - 12px);
-    background-color: #fafafa;
-    transition: 0.3s ease-in-out;
-    transform: scaleY(1);
-}
-
-.part-title button a:hover::before {
-    transform: scaleY(0);
-}
-
-.part-title button a::after {
-    content: '';
-    position: absolute;
-    left: 6px;
-    top: -2px;
-    height: calc(100% + 4px);
-    width: calc(100% - 12px);
-    background-color: #fafafa;
-    transition: 0.3s ease-in-out;
-    transform: scaleX(1);
-    transition-delay: 0.5s;
-}
-  
-.part-title button a:hover::after {
-    transform: scaleX(0);
-}
-  
-.part-title button a span {
-    color: #141c3a;
-    position: relative;
-    z-index: 3;
-}
-
-.part-title button a span:hover {
-    color: #fafafa;
-    position: relative;
-    z-index: 3;
-}
-  
-.part-title button {
-    background-color: none;
-    text-decoration: none;
-    background-color: #141c3a;
-    border: none;
-}
-
 .sello {
     font-size: 12px;
 }
@@ -243,7 +186,7 @@ body {
         margin-bottom: -100px
     }
     
-    .fsection-text p:nth-child(1) {
+    .fsection-text p:nth-child(1), .fsection-text p:nth-child(2) {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 35px;
     }
